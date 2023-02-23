@@ -1,0 +1,17 @@
+/*String concatenation: forms a new String that is the combination of multiple strings. 
+ * There are two ways to concatenate strings in Java:
+ * By + (String concatenation) operator
+   By concat() method
+
+ * 
+ */
+
+
+package String;
+class TestStringConcatenation1{  
+	 public static void main(String args[]){  
+	   String s="Sachin"+" Tendulkar";  
+	   System.out.println(s);//Sachin Tendulkar  
+	 }  
+	} 
+

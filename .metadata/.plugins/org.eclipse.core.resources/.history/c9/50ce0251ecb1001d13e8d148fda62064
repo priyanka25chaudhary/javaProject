@@ -1,0 +1,12 @@
+/* toString() method returns the String representation of the object
+ * overriding the toString() method of the Object class, 
+ * we can return values of the object, so we don't need to write much code
+ */
+
+
+
+
+
+
+package String;
+

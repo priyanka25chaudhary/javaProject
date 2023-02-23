@@ -1,0 +1,56 @@
+/*The java.lang.String class provides a lot of built-in methods 
+ * that are used to manipulate string in Java. 
+ * By the help of these methods, we can perform operations on String objects such as 
+ * trimming, concatenating, converting, comparing, replacing strings etc.
+ */
+
+package String;
+
+public class StringClassMethod {
+
+	public static void main(String ar[]) {
+		String s = " Sachin Tendulker ";
+		String s1 = "Mumbai";
+		
+				
+		
+		//Java String toUpperCase() and toLowerCase() method
+		System.out.println(s.toUpperCase());  
+		System.out.println(s.toLowerCase());
+		System.out.println(s);
+		System.out.println("________________________________");
+		
+		//trim() method eliminates white spaces before and after the String
+		System.out.println(s.trim());
+		System.out.println("________________________________");
+
+		
+		//startsWith() checks whether the String starts with the letters passed as arguments 
+		//endsWith() method checks whether the String ends with the letters passed as arguments
+		System.out.println(s1.startsWith("Mu"));//true    
+		System.out.println(s1.endsWith("i"));//true 
+	    System.out.println("________________________________");
+	    
+	    //charAt() method returns a character at specified index
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+}

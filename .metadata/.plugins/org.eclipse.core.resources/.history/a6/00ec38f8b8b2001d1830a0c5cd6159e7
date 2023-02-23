@@ -1,0 +1,12 @@
+public class DoWhileLoop {    
+public static void main(String[] args) {     
+	int i=1;    
+    do{    
+        System.out.println(i);    
+    i++;    
+    }while(i<=10);    
+}    
+}
+
+//The String class represents character strings.
+//All string literals in Java programs, such as "abc", are implemented as instances of this class.    

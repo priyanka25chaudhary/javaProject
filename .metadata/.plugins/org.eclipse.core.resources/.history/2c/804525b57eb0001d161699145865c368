@@ -1,0 +1,18 @@
+package collections;
+
+import java.util.*;  
+class TreeSet1{  
+ public static void main(String args[]){  
+  //Creating and adding elements  
+  TreeSet<String> A1=new TreeSet<String>();  
+  A1.add("Ravi");  
+  A1.add("Vijay");  
+  A1.add("Ravi");  
+  A1.add("Ajay");  
+  //Traversing elements  
+  Iterator<String> itr=al.iterator();  
+  while(itr.hasNext()){  
+   System.out.println(itr.next());  
+  }  
+ }  
+}  

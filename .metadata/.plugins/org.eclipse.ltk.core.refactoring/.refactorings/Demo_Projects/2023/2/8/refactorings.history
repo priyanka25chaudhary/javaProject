@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;emp&apos; to &apos;JavaPrectise/src&apos;&#x0D;&#x0A;- Original project: &apos;Demo_Projects&apos;&#x0D;&#x0A;- Destination element: &apos;JavaPrectise/src&apos;&#x0D;&#x0A;- Original element: &apos;Demo_Projects/src/emp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=JavaPrectise/src" element1="/src&lt;emp" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1677148133183" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+/*StringBuilder class is used to create mutable (modifiable) String. 
+ * The Java StringBuilder class is same as StringBuffer class except that 
+ * it is non-synchronized.
+ */
+
+
+package String;
+class StringBuilderExample{  
+public static void main(String args[]){  
+StringBuilder s=new StringBuilder("Hello ");  
+s.append("Java"); 
+System.out.println(s);
+}  
+}  
+

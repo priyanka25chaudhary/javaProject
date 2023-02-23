@@ -1,0 +1,42 @@
+package collections;
+
+import java.util.*;  
+class TreeSet1{  
+ public static void main(String args[]){  
+  //Creating and adding elements  
+  TreeSet<String> A1=new TreeSet<String>();  
+  A1.add("Ravi");  
+  A1.add("Vijay");  
+  A1.add("Ravi");  
+  A1.add("Ajay");
+  A1.add("Priya");
+  A1.add("Riya");
+  A1.add("Sonal")
+  //Traversing elements  
+  Iterator<String> itr=A1.iterator();  
+  while(itr.hasNext()){  
+   System.out.println(itr.next());  
+  }
+  //Traversing elements in descending order
+  Iterator i=A1.descendingIterator();  
+  while(i.hasNext())  
+  {  
+      System.out.println(i.next());  
+  }
+  //Retrieve and remove the highest and lowest Value
+  System.out.println("Lowest Value: "+A1.pollFirst());    
+  System.out.println("Highest Value: "+A1.pollLast()); 
+  
+  System.out.println("Initial Set: "+A1);  
+  
+  System.out.println("Reverse Set: "+A1.descendingSet());  
+    
+  System.out.println("Head Set: "+A1.headSet("Ravi", true));  
+   
+  System.out.println("SubSet: "+A1.subSet("Ravi", false, "Sonal", true));  
+    
+  System.out.println("TailSet: "+A1.tailSet("Priya", false));  
+
+
+ }  
+}  

@@ -1,0 +1,20 @@
+//Java Program to demonstrate the way of passing an array  
+//to method.
+package oops;
+
+import java.util.Arrays;
+
+class Array {
+//creating a method which receives an array as a parameter  
+	static void min(int arr[]) {
+		int[] arr1 = new int[] { 25, 11, 7, 75, 56 };
+
+		int max = arr1[0];
+		for (int i = 1; i < arr1.length; i++)
+			if (max < arr1[i])
+				max = arr1[i];
+
+		System.out.println(max);
+	}
+
+}

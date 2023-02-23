@@ -1,0 +1,33 @@
+/*Interface:
+ * 
+ * It is used to achieve abstraction and multiple inheritance in Java.
+ * Interfaces can have abstract methods and variables. 
+ * It cannot have a method body.
+ * It is used to achieve abstraction.
+By interface, we can support the functionality of multiple inheritance.
+It can be used to achieve loose coupling.
+ */
+package oops;
+
+interface InterfaceExample {
+	float rateOfInterest();
+}
+
+class SBI implements InterfaceExample {
+	public float rateOfInterest() {
+		return 9.15f;
+	}
+}
+
+class PNB implements InterfaceExample {
+	public float rateOfInterest() {
+		return 9.7f;
+	}
+}
+
+class TestInterface2 {
+	public static void main(String[] args) {
+		InterfaceExample b = new SBI();
+		System.out.println("ROI: " + b.rateOfInterest());
+	}
+}

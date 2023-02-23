@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;collections&apos; to &apos;Multithreading/src&apos;&#x0D;&#x0A;- Original project: &apos;collections&apos;&#x0D;&#x0A;- Destination element: &apos;Multithreading/src&apos;&#x0D;&#x0A;- Original element: &apos;collections/src/collections&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Multithreading/src" element1="/src&lt;collections" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1677074225034" version="1.0"/>
+</session>

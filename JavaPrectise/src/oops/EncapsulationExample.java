@@ -1,0 +1,16 @@
+//A Java class which is a fully encapsulated class.  
+//It has a private data member and getter and setter methods. 
+//used to access and manipulate the values of class fields
+package oops;  
+public class EncapsulationExample{  
+//private data member  
+private String name;  
+//getter method for name  (used to access and manipulate the values of class fields)
+public String getName(){  
+return name;  
+}  
+//setter method for name  
+public void setName(String name){  
+this.name=name;  
+}  
+}  

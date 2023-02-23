@@ -1,0 +1,13 @@
+/*StringBuffer class is used to create mutable (modifiable) String objects. 
+ * The StringBuffer class in Java is the same as String class except it is mutable i.e. it can be changed.
+ */
+
+package String;
+
+class StringBufferExample {
+	public static void main(String args[]) {
+		StringBuffer s = new StringBuffer("Hello ");
+		s.append("Java");// now original string is changed
+		System.out.println(s);// prints Hello Java
+	}
+}

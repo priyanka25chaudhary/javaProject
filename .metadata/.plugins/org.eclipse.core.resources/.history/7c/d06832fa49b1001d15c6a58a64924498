@@ -1,0 +1,12 @@
+package oops;
+
+abstract class Abstractclass{  
+  abstract void run();  
+}  
+class Honda4 extends Abstractclass{  
+void run(){System.out.println("running safely");}  
+public static void main(String args[]){  
+	Abstractclass obj = new Honda4();  
+ obj.run();  
+}  
+}  

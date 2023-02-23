@@ -1,0 +1,16 @@
+/*built-in substring() method that extract a substring from the given string 
+ * by using the index values passed as an argument. 
+ * In case of substring() method startIndex is inclusive and endIndex is exclusive.
+ */
+
+
+package StringPrograms;
+public class SubString{    
+	 public static void main(String args[]){    
+	 String s="SachinTendulkar";    
+	 System.out.println("Original String: " + s);  
+	 System.out.println("Substring starting from index 6: " +s.substring(6));//Tendulkar    
+	 System.out.println("Substring starting from index 0 to 6: "+s.substring(0,6)); //Sachin  
+	 }  
+	}    
+
